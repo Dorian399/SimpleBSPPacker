@@ -35,7 +35,7 @@ def main():
     if path:
         if os.path.isdir(path):
             file_list = list_files_recursive(path)
-            t
+            
             script_dir = os.path.dirname(os.path.realpath(__file__))
             output_file = os.path.join(script_dir, 'output.txt')
             
